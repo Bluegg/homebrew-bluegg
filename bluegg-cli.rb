@@ -2,8 +2,8 @@
 class BlueggCli < Formula
   desc "An awesome CLI tool to make development life at Bluegg a breeze! 🚀"
   homepage "https://github.com/kennyheard/bluegg-cli"
-  url "https://github.com/kennyheard/bluegg-cli/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "68d5c50907197cfb85c5eb87c0780ed203ddd5b050491dc890b26b96dc008af0"
+  url "https://github.com/kennyheard/bluegg-cli/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "e2d143199d914e6cf011f2d72aa0564f1141f56d2838486258622e9587b116a5"
   license "MIT"
 
   def install
