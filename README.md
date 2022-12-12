@@ -3,12 +3,11 @@
 <br />
 
 <div align="center">
-  <a href="https://github.com/kennyheard/bluegg-cli">
-    <img src="https://bluegg.co.uk/images/logo.svg" alt="The Project's Logo" width="160" style="background: white; padding: 1rem; border-radius: 1rem;">
-  </a>
-
-  <h3 align="center">Homebrew: Bluegg</h3>
-  <p align="center">Bluegg's private Homebrew taps. 🍺</p>
+    <a href="https://github.com/Bluegg/homebrew-bluegg">
+        <img src="https://bluegg.co.uk/images/logo.svg" alt="The Project's Logo" width="160">
+    </a>
+    <h3 align="center">Bluegg's Homebrew Taps</h3>
+    <p align="center">A collection of Homebrew taps created and maintained by Bluegg. 🍺</p>
 </div>
 
 <br />
@@ -17,7 +16,7 @@
 
 ## Where am I?
 
-This is a repo containing all of Bluegg's Homebrew Taps. Each Tap has its own Ruby file for the installation of a Formula.
+This is a repository containing all of Bluegg's Homebrew Taps. Each Tap has its own Ruby file for the installation of a Formula.
 
 ## How do they work?
 
@@ -28,15 +27,15 @@ Each file contains a series of configuration options used by Homebrew, as well a
 1. Clone this repo.
 
 ```sh
-git clone git@github.com:kennyheard/homebrew-bluegg.git homebrew-bluegg
+git clone git@github.com:Bluegg/homebrew-bluegg.git homebrew-bluegg
 ```
 
 2. Two things are needed to update an existing Tap:
 
-- The Formula's "_Source code (tar.gz)_" URL.
-- The Formula's SHA-256 Hash.
+-   The Formula's "_Source code (tar.gz)_" URL. E.G. `https://github.com/Bluegg/bluegg-cli/archive/refs/tags/v1.0.0.tar.gz`
+-   The Formula's SHA-256 Hash.
 
-You can obtain this hash with the following command.
+You can obtain the Formula's SHA-256 Hash with the following command.
 
 ```sh
 curl -sL <Source code (tar.gz) URL> | shasum -a 256
@@ -55,22 +54,12 @@ sha256 <The Formula's SHA-256 Hash>
 
 6. The updated Formula will now be available for installation using Homebrew. Head to the Formula's own repo for instructions on updating.
 
-<!-- COMMENT -->
-
-<br />
-
-<h3 align="center">Happy Coding! 👋🏻</h3>
-
-<!-- BLUEGG LOGO -->
-
-<br />
-
 <!-- BLUEGG LOGO -->
 
 <br />
 
 <p align="center">
-  <a href="https://bluegg.co.uk" target="_blank">
-    <img src="https://bluegg.co.uk/apple-touch-icon.png" alt="Logo" width="40" height="40" style="border-radius: 0.5rem;">
-  </a>
+    <a href="https://bluegg.co.uk" target="_blank">
+        <img src="https://bluegg.co.uk/apple-touch-icon.png" alt="Logo" width="40" height="40" style="border-radius: 0.5rem;">
+    </a>
 </p>
