@@ -1,14 +1,13 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 class BlueggCli < Formula
-  desc "An awesome CLI tool to make development life at Bluegg a breeze! 🚀"
-  homepage "https://github.com/kennyheard/bluegg-cli"
-  url "https://github.com/kennyheard/bluegg-cli/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "e2d143199d914e6cf011f2d72aa0564f1141f56d2838486258622e9587b116a5"
-  license "MIT"
+    desc "The command-line companion for worthy developers at Bluegg. 🤖"
+    homepage "https://github.com/Bluegg/bluegg-cli"
+    url "https://github.com/Bluegg/bluegg-cli/releases/download/v1.0.0/bluegg"
+    sha256 "aa4e5cde9bb227ebd1e4ce1ea75e8ee210e502a738d00c725c614c847794259f"
+    license "MIT"
 
-  def install
-    bin.install "bluegg"
-    bin.install Dir["library"]
-    prefix.install "README.md"
-  end
+    def install
+        bin.install "bluegg"
+        bin.install Dir["library"]
+    end
 end
