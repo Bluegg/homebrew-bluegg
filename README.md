@@ -32,21 +32,21 @@ git clone git@github.com:Bluegg/homebrew-bluegg.git homebrew-bluegg
 
 2. Two things are needed to update an existing Tap:
 
--   The Formula's "_Source code (tar.gz)_" URL. E.G. `https://github.com/Bluegg/bluegg-cli/archive/refs/tags/v1.0.0.tar.gz`
+-   The Formula's Binary URL. E.G. `https://github.com/Bluegg/bluegg-cli/releases/download/v1.0.0/bluegg`
 -   The Formula's SHA-256 Hash.
 
 You can obtain the Formula's SHA-256 Hash with the following command.
 
 ```sh
-curl -sL <Source code (tar.gz) URL> | shasum -a 256
+curl -sL <Binary URL> | shasum -a 256
 ```
 
-3. Open the file related to the Formula that needs updating.
+3. Open the `.rb` file related to the Formula that needs updating.
 
 4. Update the following values.
 
 ```
-url <The Formula's Source code (tar.gz) URL>
+url <The Formula's Binary URL>
 sha256 <The Formula's SHA-256 Hash>
 ```
 
