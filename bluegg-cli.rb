@@ -2,8 +2,8 @@
 class BlueggCli < Formula
     desc "The command-line companion for worthy developers at Bluegg. 🤖"
     homepage "https://github.com/Bluegg/bluegg-cli"
-    url "https://github.com/Bluegg/bluegg-cli/releases/download/v2.1.1/bluegg"
-    sha256 "52e2ab1e28bf88795180dd1c225502fb0dd6e20df480ba42cac5489e67d4b59b"
+    url "https://github.com/Bluegg/bluegg-cli/releases/download/v2.1.2/bluegg"
+    sha256 "d6aa02c18255c644ba5044ee6c8b254e4195e5f459e149e5ea27471ff70fe2a9"
     license "MIT"
 
     def install
