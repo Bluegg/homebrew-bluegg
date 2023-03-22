@@ -6,9 +6,7 @@
     <a href="https://github.com/towardstudio/homebrew-toward">
         <h3 align="center">Toward's Homebrew Taps</h3>
     </a>
-
     <p align="center">A collection of Homebrew taps created and maintained by Toward. 🍺</p>
-
 </div>
 
 <br />
