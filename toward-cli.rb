@@ -2,8 +2,8 @@
 class TowardCli < Formula
     desc "The command-line companion for worthy developers at Toward. 🤖"
     homepage "https://github.com/towardstudio/toward-cli"
-    url "https://github.com/towardstudio/toward-cli/releases/download/v2.8.0/toward"
-    sha256 "77274d8b069d0283cf8f301220bd164ffd7468b6541dc03e7ce4abc04ddc531b"
+    url "https://github.com/towardstudio/toward-cli/releases/download/v2.9.0/toward"
+    sha256 "52bebd8ff495954966992fedea35e5f87be3ae21ae836e980e48f9cea125566c"
     license "MIT"
 
     def install
